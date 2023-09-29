@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    background: #161A42;
+    /* background: linear-gradient(90deg, rgba(200,143,143,1) 0%, rgba(208,165,240,1) 100%); */
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Navbar component style */
+.navbar{
+    width: 100%;
+    padding: 20px 10px;
+    background: #161A42;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar h2{
+    background-color: #fbfbfb;
+    width: fit-content;
+    padding: 2px;
+}
+.brand-first-half{
+    margin-right: 2px;
+}
+.brand-last-half{
+    background-color:#f9f3f3;
+    color:  #333;
+
+}
+.navbar button{
+    background: #fff;
+    color:#0f0f0f;
+    border: 2px solid ;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.navbar button:hover{
+    background: linear-gradient(90deg, #f6f4f4, #c1b8b8);
+    /* color: white; */
+}
+
+/* AlbumsList component style */
+.albums-list{
+    width: 70%;
+    margin: auto;
+    padding-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List component style */
+.list{
+    width: 310px;
+    height: 200px;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);; /* Blue to Green gradient */
+    margin-bottom: 5px;
+    color: #0f0f0f; /* White text */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.update-btn{
+    background: linear-gradient(90deg, #333, #555); /* Dark gray to Slightly darker gray gradient */
+    color: #fff; /* White text */
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.update-btn:hover{
+    background: linear-gradient(90deg, #555, #777);
+    /* color: black; */
+}
+.delete-btn{
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #666262, #f6f3f3); /* Light Red to Slightly darker Red gradient */
+    color: #fff; /* White text */
+}
+.delete-btn:hover{
+    background: linear-gradient(90deg, #FF5050, #FF6666);
+}
+
+/* UpdateAlbum component style */
+.update-album{
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: #333; /* Dark gray text */
+}
+.form-container{
+    background: linear-gradient(90deg, #478AC9, #4CAF50); /* Blue to Green gradient */
+    padding: 10px;
+    margin-top: 50px;
+}
+.inp-container{
+    margin: 10px;
+}
+.form-container button{
+    background: linear-gradient(90deg, #4CAF50, #333); /* Green to Dark gray gradient */
+    padding: 10px 20px;
+    color: #fff; /* White text */
+}
+
+/* addAlbum container style */
+.addalbum-container{
+    color: #333; /* Dark gray text */
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+.addalbum-form{
+    padding: 10px;
+    background: linear-gradient(90deg, #478AC9, #4CAF50); /* Blue to Green gradient */
+    margin-top: 50px;
+}
+.addalbum-form button{
+    background: linear-gradient(90deg, #4CAF50, #333); /* Green to Dark gray gradient */
+    padding: 10px 20px;
+    color: #fff; /* White text */
+}
